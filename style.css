@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 15px;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    line-height: 1.6;
+}
+
+h1{
+    text-align: justify;
+}
+
+.normal{
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+.bold{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 375px) {
+
+    .normal{
+        font-size: 1.5rem;
+    }
+
+    .bold{
+        font-size: 1.5rem;
+    }
+
+}    
+
+h4{
+    font-weight: 600;
+}
+
+.card-supervisor{
+border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+.card-team{
+    border-top: 3px solid hsl(0, 78%, 62%);
+}   
+
+.card-karma{
+    border-top: 3px solid  hsl(34, 97%, 64%);
+}  
+
+.card-calculator{
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+
